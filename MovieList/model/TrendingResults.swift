@@ -1,9 +1,4 @@
-//
-//  TrendingResults.swift
-//  MovieList
-//
-//  Created by Silvana Rodrigues Alves on 04/02/24.
-//
+
 
 import Foundation
 

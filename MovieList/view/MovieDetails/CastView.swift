@@ -1,9 +1,3 @@
-//
-//  CastView.swift
-//  MovieList
-//
-//  Created by Silvana Rodrigues Alves on 04/02/24.
-//
 
 import Foundation
 import SwiftUI
@@ -27,6 +21,8 @@ struct CastView: View {
             Text(cast.name)
                 .lineLimit(1)
                 .frame(width: 100)
+                .foregroundColor(.white)
+
         }
     }
 

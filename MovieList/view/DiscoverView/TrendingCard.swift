@@ -1,9 +1,3 @@
-//
-//  TrendingCard.swift
-//  MovieList
-//
-//  Created by Silvana Rodrigues Alves on 04/02/24.
-//
 
 import Foundation
 import SwiftUI
@@ -20,7 +14,7 @@ struct TrendingCard: View {
                     .scaledToFill()
                     .frame(width: 340, height: 240)
             } placeholder: {
-                Rectangle().fill(Color(red:61/255,green:61/255,blue:88/255))
+                Rectangle().fill(Color(red: 14.0/255, green: 61.0/255, blue: 149.0/255))
                         .frame(width: 340, height: 240)
             }
 
@@ -42,7 +36,7 @@ struct TrendingCard: View {
                 .fontWeight(.heavy)
             }
             .padding()
-            .background(Color(red:61/255,green:61/255,blue:88/255))
+            .background(Color(red: 14.0/255, green: 61.0/255, blue: 149.0/255))
         }
         .cornerRadius(10)
     }

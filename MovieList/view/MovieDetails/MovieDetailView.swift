@@ -1,9 +1,3 @@
-//
-//  MovieDetailView.swift
-//  MovieList
-//
-//  Created by Silvana Rodrigues Alves on 04/02/24.
-//
 
 import Foundation
 import SwiftUI
@@ -17,7 +11,8 @@ struct MovieDetailView: View {
 
     var body: some View {
         ZStack {
-            Color(red:39/255,green:40/255,blue:59/255).ignoresSafeArea()
+            Color(red: 14.0/255, green: 61.0/255, blue: 149.0/255)
+                .ignoresSafeArea()
 
             GeometryReader { geo in
                 VStack {
@@ -42,34 +37,36 @@ struct MovieDetailView: View {
                         Text(movie.title)
                             .font(.title)
                             .fontWeight(.heavy)
+                            .foregroundColor(.white)
+
                         Spacer()
-                        // ratings here
                     }
 
                     HStack {
-                        // genre tags
 
-                        // running time
                     }
 
                     HStack {
                         Text("About film")
                             .font(.title3)
                             .fontWeight(.bold)
+                            .foregroundColor(.white)
+
                         Spacer()
-                        // see all button
                     }
 
                     Text(movie.overview)
-                        .lineLimit(2)
-                        .foregroundColor(.secondary)
+                        .lineLimit(4)
+                        .foregroundColor(.white)
+
 
                     HStack {
                         Text("Cast & Crew")
                             .font(.title3)
                             .fontWeight(.bold)
+                            .foregroundColor(.white)
+
                         Spacer()
-                        // see all button
                     }
 
                     ScrollView(.horizontal, showsIndicators: false) {
@@ -91,6 +88,8 @@ struct MovieDetailView: View {
                 Image(systemName: "chevron.left")
                     .imageScale(.large)
                     .fontWeight(.bold)
+                    .foregroundColor(.white)
+
             }
             .padding(.leading)
         }

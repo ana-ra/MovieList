@@ -1,9 +1,3 @@
-//
-//  DiscoverView.swift
-//  MovieList
-//
-//  Created by Silvana Rodrigues Alves on 04/02/24.
-//
 
 import Foundation
 import SwiftUI
@@ -74,14 +68,14 @@ struct DiscoverView: View {
                                 Spacer()
                             }
                             .padding()
-                            .background(Color(red:61/255,green:61/255,blue:88/255))
+                            .background(Color(red: 81.0/255, green: 85.0/255, blue: 58.0/255))
                             .cornerRadius(20)
                             .padding(.horizontal)
                         }
                     }
                 }
             }
-            .background(Color(red:39/255,green:40/255,blue:59/255).ignoresSafeArea())
+            .background(Color(red: 6.0/255, green: 26.0/255, blue: 64.0/255).ignoresSafeArea())
         }
         .searchable(text: $searchText)
         .onChange(of: searchText) { newValue in
