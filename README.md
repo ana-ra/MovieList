@@ -21,6 +21,10 @@ O projeto  foi desenvolvido utilizando as seguintes tecnologias:
 2. Na tela inicial, você será recebido com as guias de navegação, onde pode selecionar "Discover" para descobrir os filmes em destaque.
 3. Navegue pelos filmes usando a interface intuitiva e explore as informações sobre cada filme em destaque.
 4. Desfrute de uma experiência de descoberta de filmes simplificada e envolvente.
+<img width="280" alt="Screenshot 2024-02-04 at 23 51 41" src="https://github.com/ana-ra/MovieList/assets/69095817/2a3ceb35-c0aa-4a7f-99a0-4fff9da89b95">
+<img width="280" alt="Screenshot 2024-02-04 at 23 52 04" src="https://github.com/ana-ra/MovieList/assets/69095817/4cd2979a-abe3-48fb-8262-300ea8e6b4fa">
+<img width="280" alt="Screenshot 2024-02-04 at 23 52 16" src="https://github.com/ana-ra/MovieList/assets/69095817/12ef7839-62aa-4ce4-b624-2f2392c7f89f">
+
 
 
 # MovieList Project
