@@ -15,14 +15,20 @@ struct DiscoverView: View {
                         Text("No Results")
                     } else {
                         HStack {
-                            Text("Trending")
+                            Text("The Movie Database")
                                 .font(.title)
                                 .foregroundColor(.white)
                                 .fontWeight(.heavy)
                             Spacer()
                         }
-                        .padding(.horizontal
-                        )
+                        .padding(.horizontal)
+                        HStack {
+                            Text("Trending")
+                                .font(.title2)
+                                .foregroundColor(.white)
+                                .fontWeight(.heavy)
+                            Spacer()
+                        }.padding(.horizontal)
                         ScrollView(.horizontal, showsIndicators: false) {
                             HStack {
                                 ForEach(viewModel.trending) { trendingItem in
@@ -68,7 +74,7 @@ struct DiscoverView: View {
                                 Spacer()
                             }
                             .padding()
-                            .background(Color(red: 81.0/255, green: 85.0/255, blue: 58.0/255))
+                            .background(Color(red: 14.0/255, green: 61.0/255, blue: 149.0/255))
                             .cornerRadius(20)
                             .padding(.horizontal)
                         }
